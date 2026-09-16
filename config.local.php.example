@@ -1,0 +1,13 @@
+<?php
+declare(strict_types=1);
+
+// انسخ هذا الملف إلى config.local.php على الاستضافة فقط ولا ترفعه إلى المستودع.
+return [
+    'DB_PATH' => __DIR__ . '/storage/database.sqlite',
+    'JWT_SECRET' => 'استبدله بسلسلة عشوائية بطول 64 محرفاً أو أكثر',
+    'CORS_ORIGINS' => '',
+    'UPLOAD_PATH' => __DIR__ . '/storage/uploads',
+    'MAX_PRODUCT_IMAGE_BYTES' => '4194304',
+    'MAX_PROOF_IMAGE_BYTES' => '5242880',
+    'MAX_VERIFICATION_IMAGE_BYTES' => '5242880',
+];

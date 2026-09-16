@@ -1,0 +1,12 @@
+# Local environment config
+config.local.php
+
+# SQLite WAL & SHM temporary files
+*.sqlite-wal
+*.sqlite-shm
+storage/database.sqlite-wal
+storage/database.sqlite-shm
+
+# User uploads
+storage/uploads/*
+!storage/uploads/.gitkeep
